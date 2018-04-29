@@ -1,0 +1,180 @@
+html {
+	font-size: 10px;
+	width: 100%;
+	height: 100vh;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.wholePage {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	color: #f9ae34;
+	background-color: white;
+}
+
+aside {
+	width: 350px;
+	display: inline-block;
+	margin: 0;
+}
+
+.sidebar {
+	max-width: 100%;
+	background-color: black;
+	padding: 80px 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+	font-size: 1.7rem;
+}
+
+
+#userImage {
+	width:80%;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+#userAddress, #userName {
+	margin: 10px 0;
+}
+
+#userAddress {
+	font-size: 1.5rem;
+}
+
+.menu {
+	margin-top: 15px;
+}
+
+main {
+	
+	width: 100%;
+	padding-left: 60px; 
+	display: inline-block;
+}
+
+.converter {
+	width: 80%;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 20px 60px 20px 40px;
+	/*z-index: -50;*/
+	background-color: #fff;
+	
+}
+
+h1#convertHeader {
+	font-size: 3.5rem;
+	display: block;
+	float: left;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.converterDetails {
+	font-size: 2.5rem;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+}
+
+
+.grid-container {
+	width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: ;
+  padding: 0px;
+  /*border: 1px solid black;*/margin-right: 0;
+  margin-bottom: 30px;
+}
+
+.grid-item {
+	/*border: solid 1px black;*/
+	padding: 15px 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	font-size: 1.8rem;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid  #f9ae34;
+    border-radius: 1px;
+    box-sizing: border-box;
+    line-height: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: #fff;
+    text-align: center;
+}
+
+input[type=text]:focus, select:focus {
+	background-color: #eee;
+    outline: none;
+}
+
+
+
+.button {
+	float: right;
+	width: 100px;
+  	font-size: 1.8rem;
+    /*margin-right: 50px;*/
+    padding: 10px 20px;
+    margin-right: 35px;
+    border: solid 2px #f9ae34;
+    border-radius: 80px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button:hover {
+	background-color: black;
+}
+
+.button a {
+	color: #f9ae34;
+	text-decoration: none;
+}
+
+#grid-item5 {
+	width: 50px;
+	padding: 10px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Money Bee">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Money Bee</title>
+</head>
+<body>
+	<div class="wholePage">
+	<aside>
+		<div class="sidebar">
+			
+			<img id="userImage" src="user3.png" alt="User image">
+
+			
+			<h2 id="userName">
+				James Brown
+			</h2>
+			<p id="userAddress">
+				992 Madelyn Ford Suite 260
+			</p>
+			
+			<div class="menu">
+				<p class="eachMenu">Search</p>
+				<p class="eachMenu">Profile</p>
+				<p class="eachMenu">FAQ</p>
+				<p class="eachMenu">Logout</p>
+			</div>
+		</div>
+	</aside>
+	<main>
+		<div class="converter">
+			<div class="header">
+				<h1 id="convertHeader">Convert</h1>
+			</div>
+			<div class="converterDetails">
+				<div class="grid-container">
+					<div class="grid-item" id="grid-item5">From</div>
+					<div class="grid-item">
+						<input type="text" placeholder="Amount" name="amountFrom">
+						<label for="amountFrom">Amount</label>
+					</div>
+
+					
+					<div class="grid-item">
+						<form action="select">
+							<select id="currency" name="fromCurrency">
+								<option value="usd">US Dollar</option>
+								<option value="euro">Euro</option>
+								<option value="yen">Yen</option>
+							</select>
+							<label for="fromCurrency">Currency</label>
+						</form>
+					</div>
+					
+					<div class="grid-item" id="grid-item5">To</div>
+					<div class="grid-item">
+						<input type="text" placeholder="Amount" name="amountTo">
+						<label for="amountTo">Amout</label>
+					</div>
+
+					<div class="grid-item">
+						<form action="select">
+							<select id="currency" name="toCurrency">
+								<option value="usd">US Dollar</option>
+								<option value="euro">Euro</option>
+								<option value="yen">Yen</option>
+							</select>
+							<label for="toCurrency">Currency</label>
+						</form>
+					</div>
+					
+					<div class="grid-item" id="grid-item5">At</div>
+					<div class="grid-item">
+						<input type="text" placeholder="City" name="city">
+						<label for="city">City</label>
+					</div>
+
+					<div class="grid-item">
+						<input type="text" placeholder="Country" name="toCountry">
+						<label for="country">Country</label>
+					</div>
+				</div>
+				<div class="button">
+					<a href="#" id="btn-submit">SUBMIT</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	</div>
+</body>
+</html>
