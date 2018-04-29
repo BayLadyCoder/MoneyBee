@@ -1,20 +1,22 @@
 html {
 	font-size: 10px;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	margin: 0;
 	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
 	width: 100%;
-	height: 100%;
+	
 	margin: 0;
 	padding: 0;
 }
 
 .wholePage {
 	width: 100%;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	-ms-align-items: center;
@@ -31,20 +33,21 @@ aside {
 
 .sidebar {
 	max-width: 100%;
+	height: 100vh;
 	background-color: black;
-	padding: 80px 20px;
+	padding: 30px 20px;
 	color: white;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	-ms-align-items: center;
 	align-items: center;
-	font-size: 1.7rem;
+	font-size: 1.6rem;
 }
 
 
 #userImage {
-	width:80%;
+	width:60%;
 	border-radius: 50%;
 	margin-bottom: 10px;
 }
@@ -57,7 +60,22 @@ aside {
 }
 
 .menu {
-	margin-top: 15px;
+	margin: 10px 0px 20px 0px;
+
+}
+
+#profile {
+	font-weight: 700;
+	color: #f9ae34;
+	font-size: 1.8rem;
+}
+
+.logoDesktop {
+	width: 100px;
+}
+
+#theLogo {
+	width: 100%;
 }
 
 main {
@@ -76,7 +94,7 @@ main {
 	justify-content: center;
 	-ms-align-items: center;
 	align-items: center;
-	padding: 20px 60px 20px 40px;
+	padding: 0px 40px 0px 40px;
 	/*z-index: -50;*/
 	background-color: #fff;
 	
@@ -87,7 +105,7 @@ h1#convertHeader {
 	display: block;
 	float: left;
 	margin: 0;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .converterDetails {
@@ -113,7 +131,7 @@ h1#convertHeader {
 
 .grid-item {
 	/*border: solid 1px black;*/
-	padding: 15px 30px;
+	padding: 10px 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
